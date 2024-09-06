@@ -8,7 +8,17 @@ BEM is a methodology for creating reusable components and code sharing in front-
 ## Features
 
 - **Quick BEM Element Insertion**: Quickly insert BEM elements into your HTML. After insertion, simply provide the element's name.
-- **Simple Command**: Use the command palette or custom keyboard shortcuts to quickly insert BEM elements.
+- **Improved Handling of Complex Structures**: Enhanced support for complex HTML structures and ignoring icon font classes starting with `_icon-`.
+
+## Demo
+
+Here's a quick demonstration of the extension:
+
+Simple structure
+![Quick BEM Element Demo - Simple](images/demo-simple.gif)
+
+Complex structure
+![Quick BEM Element Demo - Complex](images/demo-complex.gif)
 
 ## Default Keybindings
 
@@ -23,14 +33,6 @@ To change these keybindings:
 3. Find the command `Quick BEM Element: Insert Element`.
 4. Click on the pencil icon next to the command and set your preferred keybinding.
 
-## Requirements
-
-- **Visual Studio Code**: This extension requires Visual Studio Code version 1.75.0 or higher.
-
-## Extension Settings
-
-Currently, this extension does not add any custom settings to VS Code.
-
 ## Known Issues
 
 - Ensure your HTML file has BEM blocks defined before using the command to insert elements, as the extension relies on finding these blocks.
@@ -38,32 +40,5 @@ Currently, this extension does not add any custom settings to VS Code.
 ## Reporting Issues and Requests
 
 If you encounter any issues or have feature requests, please create an issue on [GitHub](https://github.com/PIDLISNYiDMYTRo/Quick-BEM-Element/issues).
-
-## Release Notes
-
-### 1.0.0
-
-- Initial release of `Quick BEM Element`.
-
----
-
-## Demo
-
-Here's a quick demonstration of the extension:
-
-![Quick BEM Element Demo](images/demo.gif)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**

@@ -2,7 +2,7 @@
    "name": "quick-bem-element",
    "displayName": "Quick BEM Element",
    "description": "An efficient VSCode extension for quickly inserting BEM elements into your HTML code, streamlining your workflow and ensuring consistent BEM methodology application.",
-   "version": "1.0.0",
+   "version": "1.1.0",
    "publisher": "DmytroPidlisnyi",
    "engines": {
       "vscode": "^1.75.0"
@@ -41,5 +41,14 @@
       "Other",
       "Programming Languages",
       "Snippets"
+   ],
+   "keywords": [
+      "BEM",
+      "HTML",
+      "VSCode",
+      "snippets",
+      "block",
+      "element",
+      "modifier"
    ]
 }
